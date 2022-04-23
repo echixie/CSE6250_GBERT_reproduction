@@ -1,0 +1,20 @@
+name: gbert_env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7.13
+  - pytorch=1.11.0
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pip
+  - pip:
+      - torch-scatter==2.0.9
+      - torch-sparse==0.6.13
+      - torch-cluster==1.6.0
+      - torch-spline-conv==1.2.1
+      - torch-geometric==2.0.3
+      - dill==0.3.4
+      - tensorboardX==2.2
